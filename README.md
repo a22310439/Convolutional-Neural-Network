@@ -72,4 +72,10 @@ You should consider using a CNN when you are working with image data or any type
    3. Also for the "Image" class we override the "toString" method so we can see what image is stored in the list.
 
 ### Add The Abstract Layer Class
-   1. Add the "Layer" class (abstract) so we have the template for all the layers that this network will have.
+   - Add the "Layer" class (abstract) so we have the template for all the layers that this network will have.
+
+### Fully Connected Layer
+   - The first layer where there is the definition of the back propagation and forward pass.
+      - The back propagation uses the losses of the calculations so the training process can be more accurate.
+
+      
