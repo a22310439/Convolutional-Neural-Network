@@ -78,4 +78,11 @@ You should consider using a CNN when you are working with image data or any type
    - The first layer where there is the definition of the back propagation and forward pass.
       - The back propagation uses the losses of the calculations so the training process can be more accurate.
 
-      
+### Max Pooling Layer
+   - Create the pool method so that this layer reduces the spatioal dimensions of the previous layer output
+
+### Convolution Layer
+Here is where all gets complicated and dirty
+   - We apply filters (using derivatives) to the input to create a feature map thar summarizes the presence of detected features in the input
+   - This layer takes two functions and "slides" one of them over the other, multiplying the function values at each point where they overlap, and adding up the products to create a new function
+
